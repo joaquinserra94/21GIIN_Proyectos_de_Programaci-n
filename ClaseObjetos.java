@@ -27,3 +27,19 @@ public class Persona {                                      //Aquí, se define l
         persona2.mostrarInformacion();
     }
 }
+
+public class Coche{
+    private String modelo;
+    private String color;
+    private Int kilometraje;
+
+
+    public Coche (String modelo, String color, Int kilometraje) {
+        this.modelo = modelo;
+        this.color = color;
+        this.kilometraje = kilometraje;
+
+        
+    }
+
+}

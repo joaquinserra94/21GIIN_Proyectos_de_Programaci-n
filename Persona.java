@@ -31,15 +31,26 @@ public class Persona {                                      //Aquí, se define l
 public class Coche{
     private String modelo;
     private String color;
-    private Int kilometraje;
+    private int kilometraje;
 
 
-    public Coche (String modelo, String color, Int kilometraje) {
+    public Coche (String modelo, String color, int kilometraje) {
         this.modelo = modelo;
         this.color = color;
         this.kilometraje = kilometraje;
-
-        
     }
+
+    public void mostrarInformacion() {
+        System.out.println("Modelo: " + modelo + "Color: " + color + "Kilometraje: " + kilometraje);
+    }
+
+    public static void main (String[] args) {
+        Coche coche1 = new Coche("BMW", "Blanco", 200000);
+        Coche coche2 = new Coche("Sandero", "Gris", 80000);
+
+        coche1.mostrarInformacion();
+        coche2.mostrarInformacion();
+    }
+
 
 }

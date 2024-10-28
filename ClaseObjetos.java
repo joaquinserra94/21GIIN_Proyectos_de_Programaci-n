@@ -1,11 +1,11 @@
 // Definición de la clase Persona
-public class Persona {                                      //Aquí, se define la clase Persona, que representa el "molde" para crear objetos de tipo Persona.
+public class ClaseObjetos {                                      //Aquí, se define la clase Persona, que representa el "molde" para crear objetos de tipo Persona.
     private String nombre;                                  //Las clases se declaran con la palabra clave class. 
     private int edad;                                       //Public significa que la clase puede ser accedida desde otras partes del programa.
     
 
     // Constructor                                          El constructor es un método especial que se llama automáticamente cuando creamos un objeto de la clase.
-    public Persona(String nombre, int edad) {               //Define un constructor que toma dos parámetros: nombre (tipo String) y edad (tipo int).
+    public ClaseObjetos(String nombre, int edad) {               //Define un constructor que toma dos parámetros: nombre (tipo String) y edad (tipo int).
         this.nombre = nombre;                               //this.nombre = nombre; asigna el valor del parámetro nombre a la variable de instancia nombre.
         this.edad = edad;
     }                                                       //El prefijo this diferencia las variables de instancia de los parámetros del constructor.
@@ -19,8 +19,8 @@ public class Persona {                                      //Aquí, se define l
     public static void main(String[] args) {                //El método main es el punto de entrada de un programa en Java.
                                                             //La palabra clave static indica que este método pertenece a la clase, no a una instancia en particular.
         // Crear un objeto de la clase Persona              
-        Persona persona1 = new Persona("Juan", 30);         //Crea un objeto persona1 de la clase Persona con el nombre "Juan" y la edad 30. Esto llama al constructor y asigna los valores correspondientes.
-        Persona persona2 = new Persona("Ana", 25);
+        ClaseObjetos persona1 = new ClaseObjetos("Juan", 30);         //Crea un objeto persona1 de la clase Persona con el nombre "Juan" y la edad 30. Esto llama al constructor y asigna los valores correspondientes.
+        ClaseObjetos persona2 = new ClaseObjetos("Ana", 25);
 
         // Llamar al metodo mostrar Informacion en cada objeto
         persona1.mostrarInformacion();                      //Llama al método mostrarInformacion del objeto persona1, que imprimirá "Nombre: Juan, Edad: 30".

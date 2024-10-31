@@ -28,7 +28,7 @@ public class ClaseObjetos {                                      //Aquí, se def
     }
 }
 
-public class Coche{
+/*public class Coche{
     private String modelo;
     private String color;
     private int kilometraje;
@@ -53,4 +53,4 @@ public class Coche{
     }
 
 
-}
+}*/

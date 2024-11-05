@@ -52,5 +52,6 @@ public class ClaseObjetos {                                      //Aquí, se def
         coche2.mostrarInformacion();
     }
 
+    VER DE AGREGAR OTROS EJEMPLOS
 
 }*/

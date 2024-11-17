@@ -1,0 +1,40 @@
+Polimorfismo
+
+1 - ¿Qué es el polimorfismo en POO?
+
+2 - ¿Cuál es la diferencia entre polimorfismo estático y dinámico?
+
+3 - Proporciona un ejemplo de polimorfismo en Java.
+
+4 - ¿Qué es el método overriding y cómo se relaciona con el polimorfismo?
+
+5 - ¿Cómo mejora el polimorfismo la flexibilidad y mantenibilidad del código?
+
+Respuesta: El polimorfismo es la capacidad de un objeto de tomar muchas formas. En POO, permite que una interfaz o clase base sea utilizada por diferentes clases derivadas, cada una implementando comportamientos específicos.
+
+Respuesta: El polimorfismo estático (o en tiempo de compilación) se logra mediante la sobrecarga de métodos, donde varios métodos tienen el mismo nombre pero diferentes parámetros. El polimorfismo dinámico (o en tiempo de ejecución) se logra mediante la sobrescritura de métodos, donde una subclase proporciona una implementación específica de un método que ya está definido en su superclase.
+Proporciona un ejemplo de polimorfismo en Java.
+
+Respuesta: El overriding es la técnica mediante la cual una subclase proporciona una implementación específica de un método que ya está definido en su superclase. Esto permite que el método de la subclase sea llamado en lugar del método de la superclase, logrando así el polimorfismo dinámico.
+
+Respuesta: El polimorfismo permite que el código sea más flexible y mantenible al permitir que las clases y métodos trabajen con objetos de diferentes tipos de manera uniforme. Esto facilita la extensión y modificación del código sin afectar otras partes del sistema.
+
+Interfaces
+
+1 - ¿Qué es una interfaz en POO?
+
+2 - ¿Cuál es la diferencia entre una clase abstracta y una interfaz?
+
+3 - Proporciona un ejemplo de implementación de una interfaz en Java.
+
+4 - ¿Cómo se puede usar una interfaz para lograr el polimorfismo?
+
+5 - Describe una situación en la que sería más beneficioso usar una interfaz en lugar de una clase abstracta.
+
+Respuesta: Una interfaz es un contrato que define un conjunto de métodos que una clase debe implementar. No contiene implementación de métodos, solo las firmas de los métodos.
+
+Respuesta: Una clase abstracta puede contener tanto métodos abstractos (sin implementación) como métodos concretos (con implementación), mientras que una interfaz solo puede contener métodos abstractos. Además, una clase puede implementar múltiples interfaces pero solo puede heredar de una clase abstracta.
+
+Respuesta: Una interfaz permite que diferentes clases implementen los mismos métodos, lo que permite que los objetos de estas clases sean tratados de manera uniforme. Esto facilita el polimorfismo, ya que se puede usar una referencia de interfaz para referirse a cualquier objeto que implemente esa interfaz.
+
+Respuesta: Es más beneficioso usar una interfaz cuando se necesita que una clase implemente múltiples comportamientos que no están relacionados jerárquicamente. Por ejemplo, si una clase necesita implementar comportamientos de Volador y Nadador, puede implementar ambas interfaces, mientras que solo puede heredar de una clase abstracta.
